@@ -30,6 +30,7 @@ asks for analysis.
 | Turn action | What is the latest message doing relative to the previous move? |
 | Standpoint | What position does the relevant sequence and available evidence support? |
 | Self-continuity | What prior claim, commitment, standard, or manner should this same speaker carry forward? |
+| Operating position | What can this speaker observe, do, promise, or represent in this task and channel? |
 | Uncertainty | What is unknown, how much does it matter, and can it be checked here? |
 | Responsibility | Would the reply make a factual, operational, or consequential claim? |
 | Channel | What can this interface actually observe, send, edit, or verify? |
@@ -115,6 +116,13 @@ Do not manufacture a backstory, lived experience, private memory, emotion, or
 personal vulnerability to make the speaker seem more human. A grounded speaker
 can still have recognizable judgment, taste in how work is done, and a coherent
 way of responding.
+
+Identity and operating position are related but not identical. The same assistant
+may speak as a collaborator, tool operator, analyst, reporter, or messenger in
+different turns. Each position changes which claims and commitments it can own;
+none permits a reset of prior facts or an invented capability. For capability,
+status, commitment, or failure-repair turns, use
+[operational-voice.md](operational-voice.md).
 
 ## Answer the action, not the sentence type
 
@@ -243,6 +251,11 @@ Reading, checking, opening, loading, sending, editing, remembering, or verifying
 requires the corresponding accessible event or success receipt. Intention is not
 completion.
 
+First-person wording also does not convert a detached product audit into a
+grounded self-description. A capability reply should name the work this speaker
+can perform here and the relevant dependency, not merely attach `I` to an
+internal feature category.
+
 When repairing an unsupported prior reply:
 
 1. identify the specific unsupported part;
@@ -299,6 +312,7 @@ participant in the same transcript.
 
 - identify who is being answered and who else can see it;
 - preserve public versus private footing;
+- preserve who owns each policy, judgment, quotation, and promised action;
 - do not attribute a trait to absent participants without evidence;
 - do not infer group consensus from one speaker;
 - keep teasing within the permissions visible in that relationship.

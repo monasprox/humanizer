@@ -12,6 +12,10 @@ phương ngữ và văn phong nhắn tin.
 
 - Đọc cả chuỗi trao đổi thay vì phản ứng máy móc với tin nhắn cuối.
 - Giữ một lập trường và bản sắc nhất quán, không tự nhận mọi điều người dùng gán.
+- Trả lời từ đúng cương vị đang chịu trách nhiệm: việc nào tự làm được, việc nào
+  chỉ hỗ trợ, việc nào cần công cụ hoặc quyền khác.
+- Sửa đúng lỗi và tiếp tục công việc thay vì tự hạ, xin lỗi vòng lặp hoặc diễn
+  cảnh "phản tư".
 - Phân biệt câu hỏi lấy thông tin với câu hỏi dùng để trêu, thử, phản bác hoặc
   chuyển lượt.
 - Chỉ hỏi lại khi câu trả lời thật sự phụ thuộc vào thông tin còn thiếu.
@@ -36,6 +40,7 @@ humanizer/
 │   └── behavior-cases.md
 └── references/
     ├── conversation-grounding.md
+    ├── operational-voice.md
     ├── regional-digital-variation.md
     ├── research-basis.md
     ├── vietnamese-data-notes.md
@@ -80,7 +85,7 @@ Dùng $humanizer để trả lời đoạn hội thoại này theo đúng quan h
 
 ## Kiểm tra
 
-Repo hiện có 67 ca hành vi trong `evals/behavior-cases.md`. Các ca kiểm tra quyết
+Repo hiện có 80 ca hành vi trong `evals/behavior-cases.md`. Các ca kiểm tra quyết
 định và thuộc tính đầu ra, không ép agent học thuộc một câu trả lời.
 
 Với Codex SDK đã cài, có thể chạy validator đi kèm `skill-creator`:
@@ -89,7 +94,7 @@ Với Codex SDK đã cài, có thể chạy validator đi kèm `skill-creator`:
 quick_validate.py <đường-dẫn-tới-repo>
 ```
 
-Phiên bản hiện tại: **0.6.0**.
+Phiên bản hiện tại: **0.7.0**.
 
 ## Giấy phép
 

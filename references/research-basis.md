@@ -102,6 +102,82 @@ the latest user turn. It should carry forward a coherent, evidence-grounded
 speaker identity while allowing new evidence and relationship changes to update
 its position.
 
+### Utterances perform actions, not sentence templates
+
+Speech-act work distinguishes the grammatical material of an utterance from what
+the speaker is doing with it. Conversation-analytic work further shows that a
+yes/no question makes a type-conforming answer easier, while recipients can
+transform the terms or agenda of a question when accepting its design would
+misrepresent their position.
+
+- John R. Searle,
+  [A classification of illocutionary acts](https://doi.org/10.1017/S0047404500006837)
+- Geoffrey Raymond,
+  [Grammar and social organization: Yes/no interrogatives and the structure of responding](https://doi.org/10.2307/1519752)
+- Tanya Stivers and Makoto Hayashi,
+  [Transformative answers: One way to resist a question's constraints](https://doi.org/10.1017/S0047404509990637)
+
+Design consequence: classify the needed action internally, not the punctuation or
+surface sentence type. An agent may answer the useful part of a question while
+rejecting an unsupported premise, role, or binary. The taxonomy must not become a
+set of canned response forms.
+
+### Speaker footing carries responsibility
+
+Goffman's account of footing separates the person producing words from the author
+who selects them and the principal whose position is established by them. In
+ordinary conversation these often coincide; quotation, delegation, institutional
+speech, and relayed policy can separate them.
+
+- Erving Goffman,
+  [Footing](https://doi.org/10.1515/semi.1979.25.1-2.1)
+
+Design consequence: an assistant should speak from the operating position that
+owns the reply. It must distinguish its own judgment and actions from quoted user
+policy, third-party claims, tool output, and institutional authority. Adding a
+first-person pronoun to a detached feature audit does not solve the footing error.
+
+### Repair depends on evidence and restores progress
+
+Conversation repair addresses local trouble in speaking, hearing, or
+understanding, with a strong organization around self-repair. Participants also
+make their knowledge basis relevant when claims are doubted, and communication
+updates common ground for the purpose at hand.
+
+- Emanuel Schegloff, Gail Jefferson, and Harvey Sacks,
+  [The preference for self-correction in the organization of repair in conversation](https://doi.org/10.2307/413107)
+- Anita Pomerantz,
+  [Giving a source or basis: The practice in conversation of telling "how I know"](https://doi.org/10.1016/0378-2166(84)90002-X)
+- John Heritage and Geoffrey Raymond,
+  [The terms of agreement: Indexing epistemic authority and subordination in talk-in-interaction](https://doi.org/10.1177/019027250506800103)
+- Herbert H. Clark and Susan E. Brennan,
+  [Grounding in communication](https://doi.org/10.1037/10096-006)
+
+Design consequence: repair the smallest unsupported claim or failed action,
+replace it with a source-matched account, and resume the task. Apology,
+self-deprecation, or fluent explanation is not repair when the operational state
+remains unchanged.
+
+### Agreement pressure and verbal self-reflection are unreliable
+
+LLM evaluations find that models may match a user's stated belief over a truthful
+answer. Research on self-correction also finds that asking a model to reflect can
+degrade answers when it cannot locate the actual error, while verification of a
+specific condition or an externally identified mistake makes correction more
+reliable.
+
+- Mrinank Sharma and colleagues,
+  [Towards understanding sycophancy in language models](https://arxiv.org/abs/2310.13548)
+- Gladys Tyen and colleagues,
+  [LLMs cannot find reasoning errors, but can correct them given the error location](https://aclanthology.org/2024.findings-acl.826/)
+- Zhenyu Wu and colleagues,
+  [Large language models can self-correct with key condition verification](https://aclanthology.org/2024.emnlp-main.714/)
+
+Design consequence: criticism should trigger inspection of a concrete claim,
+receipt, condition, or state transition. Do not treat agreement, repeated
+apology, self-insult, or narration of internal reflection as evidence that an
+error was found or fixed.
+
 ### Uncertainty is part of the claim, not a stylistic effect
 
 Conversation participants present themselves as more or less knowledgeable, and
